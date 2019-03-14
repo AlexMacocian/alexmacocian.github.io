@@ -1,36 +1,173 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+body{
+	max-width:100%;
+	overflow-x:hidden;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+#Titlebar {
+	margin-left: 5%;
+	margin-right:5%;
+	overflow:hidden;
+	height:7%;
+	position:absolute;
+	width:90%;
+	z-index:1;
+	background:white;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+#Titlebar .Title {
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 600;
+	font-size: 250%;
+	float:left;
+	width:45%;
+	margin-bottom:0%;
+	padding-bottom:0%;
 }
-a {
+
+#Menu{
+	font-style:normal;
+	font-size:larger;
+	float:right;
+	width:55%;
+	margin-bottom:0%;
+	margin-left:0%;
+}
+
+ul#Menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+}
+
+#Menu li{
+    float: right;
+    margin-bottom:0%;
+    margin-top:3%;
+    margin-right:1%;
+}
+
+#Menu li a {
+	font-variant:small-caps;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
-    color: #999;
+    color:#6495ED;
+    
 }
-a:hover {
-    text-decoration: underline;
+
+#Menu li a:hover{
+	cursor:pointer;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+#Menu li.Current a {
+	text-decoration:underline;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+#Content{
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:5%;
+	font-size:120%;
+	overflow:hidden;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+
+.Title{
+	text-align:center;
+	width:100%;
+	font-variant:normal;
+	padding-bottom:3%;
+	font-size:150%;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+#Content .Title{
+	font-weight:500;
+	text-decoration:underline;
+}
+
+#Content a{
+	color:black;	
+}
+
+#Content ul{
+	margin-bottom:10%;
+}
+
+#Content li{
+	font-size:100%;
+}
+
+#ContentFrame{
+	position:absolute;
+	display:block;
+	background: transparent;
+	border: none;
+	height:90vh;
+	margin-left:-5%;
+	margin-top:8vh;
+	width:110%;
+	overflow-y:visible;
+	overflow-x:hidden;
+	z-index:0;
+}
+
+#ContentFrame::-webkit-scrollbar { 
+    display: none; 
+}
+
+#Content .Link{
+	
+	text-decoration:underline;
+}
+
+#Content .Link:hover{
+	cursor:pointer;
+}
+
+
+#BlogContent{
+	width:80%;
+	height:75%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:5%;
+}
+
+#ArticleFrame{
+	float:left;
+	width:50%;
+	display:block;
+	background:transparent;
+	border:none;
+	position:absolute;
+	padding-right:35%;
+	z-index:-1;
+	overflow:hidden;
+}
+#ArticlesList{
+	float:right;
+	width:30%;
+	border:thin;
+	border-color:gray;
+	z-index:0;
+}
+
+#ArticlesList .Title{
+	font-size:smaller;
+	color:black;
+	text-decoration:underline;
+	cursor:pointer;
+	padding-bottom:0%;
+	margin-top:0%;
+}
+
+hr{
+	width:100%;
+	float:right;
 }
 
 ul.posts { 
