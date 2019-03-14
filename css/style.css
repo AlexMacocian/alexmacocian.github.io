@@ -66,7 +66,7 @@ ul#Menu{
 	text-decoration:underline;
 }
 
-#Content{
+#container{
 	margin-left:20%;
 	margin-right:20%;
 	margin-top:5%;
@@ -84,24 +84,24 @@ ul#Menu{
 	font-weight:bold;
 }
 
-#Content .Title{
+#container .Title{
 	font-weight:500;
 	text-decoration:underline;
 }
 
-#Content a{
+#container a{
 	color:black;	
 }
 
-#Content ul{
+#container ul{
 	margin-bottom:10%;
 }
 
-#Content li{
+#container li{
 	font-size:100%;
 }
 
-#ContentFrame{
+#contentFrame{
 	position:absolute;
 	display:block;
 	background: transparent;
@@ -115,16 +115,16 @@ ul#Menu{
 	z-index:0;
 }
 
-#ContentFrame::-webkit-scrollbar { 
+#contentFrame::-webkit-scrollbar { 
     display: none; 
 }
 
-#Content .Link{
+#container .Link{
 	
 	text-decoration:underline;
 }
 
-#Content .Link:hover{
+#container .Link:hover{
 	cursor:pointer;
 }
 
