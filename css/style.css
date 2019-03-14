@@ -1,6 +1,7 @@
 body{
 	max-width:100%;
 	overflow-x:hidden;
+	overflow-y:hidden;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 #Titlebar {
