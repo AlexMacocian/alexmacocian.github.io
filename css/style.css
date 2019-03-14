@@ -1,8 +1,10 @@
 body{
 	max-width:100%;
 	overflow-x:hidden;
-	overflow-y:hidden;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+body::-webkit-scrollbar { 
+    display: none; 
 }
 #Titlebar {
 	margin-left: 5%;
