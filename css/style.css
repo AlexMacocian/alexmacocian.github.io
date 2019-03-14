@@ -90,11 +90,7 @@ ul#Menu{
 .container .Title{
 	font-weight:500;
 	text-decoration:underline;
-}
-
-.container a .Title{
 	float:left;
-	left:-50%;
 }
 
 .container a{
