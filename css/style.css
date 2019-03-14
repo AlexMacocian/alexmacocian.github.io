@@ -66,7 +66,7 @@ ul#Menu{
 	text-decoration:underline;
 }
 
-#container{
+.container{
 	margin-left:20%;
 	margin-right:20%;
 	margin-top:5%;
@@ -84,20 +84,20 @@ ul#Menu{
 	font-weight:bold;
 }
 
-#container .Title{
+.container .Title{
 	font-weight:500;
 	text-decoration:underline;
 }
 
-#container a{
+.container a{
 	color:black;	
 }
 
-#container ul{
+.container ul{
 	margin-bottom:10%;
 }
 
-#container li{
+.container li{
 	font-size:100%;
 }
 
